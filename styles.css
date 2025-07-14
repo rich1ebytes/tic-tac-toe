@@ -43,7 +43,7 @@ h1,h2{
   background-color: #FFE0B5;
 }
 
-.resetbtn, .newbtn{
+.resetbtn, .newbtn,.newbtn2{
      background-color: #A4AF69;
      padding: 0.5vmin 1vmin;
      box-sizing: border-box;

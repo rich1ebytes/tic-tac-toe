@@ -1,6 +1,7 @@
 let boxes = document.querySelectorAll('.box');
 let resetBtn = document.querySelector('.resetbtn');
 let newBtn = document.querySelector('.newbtn');
+let newBtn2 = document.querySelector('.newbtn2');
 let msg = document.querySelector('.msg');
 let msgContainer = document.querySelector('.msgContainer');
 
@@ -103,6 +104,6 @@ const showWinner = (winner) =>{
 };
 
 
-
+newBtn2.addEventListener("click",resetGame);
 resetBtn.addEventListener("click",resetGame); 
 newBtn.addEventListener("click",resetGame);
