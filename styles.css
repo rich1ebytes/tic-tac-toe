@@ -108,7 +108,7 @@ h1,h2{
     font-size: 9vmin;
   }
 
-  .resetbtn, .newbtn {
+  .resetbtn, .newbtn, .newbtn2 {
     width: 60vmin;
     height: 8vmin;
     font-size: 1.3rem;
