@@ -1,0 +1,129 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+     background-color:#4C2719;
+     color: #FFE0B5;
+}
+
+h1,h2{
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.game-container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 70vh;
+}
+
+.game-box{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(37, 37, 37, 0.3);
+  font-size: 8vmin;
+  background-color: #FFE0B5;
+}
+
+.resetbtn, .newbtn{
+     background-color: #A4AF69;
+     padding: 0.5vmin 1vmin;
+     box-sizing: border-box;
+     width: 18vmin;
+     height: 6vmin;
+     font-size: 1.25rem;
+     border: none;
+     border-radius: 1rem;
+     font-weight: bold;
+     margin-top: 12px;
+     color: #1F100A;
+     cursor: pointer;
+}
+
+
+.msg {
+  color: #FFE0B5;
+  font-size: 5vmin;
+}
+
+.drawmsg{
+     color: #FFE0B5;
+     font-size: 5vmin;
+}
+
+.msgContainer, .drawContainer {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1, h2 {
+    font-size: 1.8rem;
+  }
+
+  .game-container {
+    height: auto;
+  }
+
+  .game-box {
+    width: 90vmin;
+    height: 90vmin;
+    gap: 2vmin;
+  }
+
+  .box {
+    width: 28vmin;
+    height: 28vmin;
+    font-size: 9vmin;
+  }
+
+  .resetbtn, .newbtn {
+    width: 60vmin;
+    height: 8vmin;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .msg, .drawmsg {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .msgContainer, .drawContainer {
+    gap: 2rem;
+    padding: 1rem;
+  }
+}
+
